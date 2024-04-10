@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 선택자에 대해 알아보자
+title: 선택자에 대해 알아보자!
 date: 2024-04-05 19:52 +0900
-description: 선택자
-image: 
+description: 선택자
+image: ../assets/img/blog2.png
 category: coading
 tags: selector
 published: true
