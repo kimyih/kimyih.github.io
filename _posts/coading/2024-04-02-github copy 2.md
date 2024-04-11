@@ -37,8 +37,6 @@ sitemap: true
 13. text-shadow <Br>
 
 
-
-
 ## **01) font-family**
 ---
 
@@ -101,7 +99,8 @@ CSS에서 유용하게 사용하는 단위에서 다음과 같은 것들이 있�
 ````     
 
    
-  #### <span style="color: red;"> **em과 rem 특성의 차이점** </span>
+  #### <span style="color: red;"> __em과 rem 특성의 차이점__ </span>
+  ---
 
 
 | 특성         | `em`                                      | `rem`                               |
@@ -180,6 +179,7 @@ line-height 속성은 텍스트 줄 간격을 조절합니다. 단위를 사용�
 
 
 #### 예제 )
+
 #### 1. 기본 값으로 설정:
 
 <p style="line-height: normal;">이 문장은 기본 높이로 설정된 줄 간격을 가집니다.</p>
@@ -247,7 +247,7 @@ body {font: 12px/1.4 '굴림', Gulim; }
 1. 원하는 웹폰트의 CSS 링크를 <head> 태그 내에 추가합니다.   
 2. 해당 웹폰트를 CSS에서 지정하여 원하는 요소에 적용합니다.   
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -280,7 +280,7 @@ body {font: 12px/1.4 '굴림', Gulim; }
 2. 외부 서비스에서 제공하는 코드를 HTML 파일의 <head> 태그 내에 추가합니다.
 3. 해당 웹폰트를 CSS에서 지정하여 원하는 요소에 적용합니다.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -334,13 +334,15 @@ CSS의 색상은 글자색 (color) 뿐 아니라 배경색 (background), 테두�
 ---
 <br>
 
-### * <span style="color: blue;">색상명</span>   
+### * <span style="color: blue;">색상명</span> 
+---  
 해당 색상을 의미하는 고유명사를 속성값으로 사용합니다. 사용할 수 있는 속성값으로는  `red`, `blue`, `aqua`, `corel`, ... 등 여러 가지가 있으나 해당 색상값을 의미하는 단어를 미리 알고 있어야 합니다.
 
 [https://www.w3schools.com/] 에 접속하여   
 Learn Colors > Color Names 를 클릭하면 색상명을 확인할 수 있습니다.
 
 ### * <span style="color: blue;">HEX값</span>  
+---
 
 HEX 값은 컬러를 나타내는데 사용되는 16진수 코드입니다. 이것은 컬러를 표현할 때 RGB(빨강, 초록, 파랑) 색상 모델을 사용하는데, 각각의 색상 채널(빨강, 초록, 파랑)을 16진수로 표현합니다.
 
@@ -372,7 +374,7 @@ HEX 값으로 색상 속성을 부여한 예
 
 
 ### * <span style="color: blue;">RGB 값</span>  
-
+---
 
 RGB 값은 빨강(Red), 초록(Green), 파랑(Blue)의 세 가지 색상 채널을 사용하여 색상을 나타내는 방식입니다. 이것은 컬러를 표현하는 데에 가장 일반적으로 사용되는 방법 중 하나입니다.
 
@@ -400,6 +402,7 @@ RGB 값으로 색상 속성을 부여한 예
 
 
 ### * <span style="color: blue;">HSL 값</span>  
+---
 
 HSL은 Hue(색상), Saturation(채도), Lightness(명도)의 세 가지 요소로 색상을 정의하는 색상 모델입니다. 이것은 RGB 색상 모델보다 직관적이며 인간이 색상을 인식하는 방식에 더 가깝습니다.
 
@@ -415,7 +418,8 @@ HSL 값으로 색상 속성을 부여한 예
 | color: HSL(300,100%,50%)  | 글자를 hue:300도, 채도:100%, 명도:50%로 표현 |
 
 
-### * <span style="color: blue;">RGBA 값</span>  
+### * <span style="color: blue;">RGBA 값</span>
+---  
 
 
 RGBA 값은 RGB 값에 투명도(Alpha)를 추가한 것입니다. RGB는 빨강(Red), 초록(Green), 파랑(Blue) 세 가지 색상 채널을 사용하여 색상을 표현하는 반면, RGBA는 이 세 가지 색상 채널에 더하여 투명도를 나타내는 Alpha 채널을 추가합니다.
@@ -431,7 +435,8 @@ A (투명도): 투명도 채널은 0부터 1까지의 값을 가집니다. 0은 
 | rgba(0, 255, 0, 0.25)  | 0       | 255     | 0       | 0.25      | 반투명 초록색         |
 | rgba(0, 0, 255, 0.75)  | 0       | 0       | 255     | 0.75      | 반투명 파란색         |
 
-### * <span style="color: blue;">HSLA 값</span>  
+### * <span style="color: blue;">HSLA 값</span>
+---  
 
 
 HSLA는 Hue(색상), Saturation(채도), Lightness(명도), Alpha(투명도)의 네 가지 요소를 사용하여 색상을 정의하는 방식입니다. HSLA는 HSL 모델과 유사하지만, 투명도를 추가하여 반투명 색상을 만들 수 있습니다.
@@ -448,7 +453,6 @@ HSLA는 Hue(색상), Saturation(채도), Lightness(명도), Alpha(투명도)의 
 | hsla(240, 100%, 50%, 0.25) | 240     | 100%    | 50%     | 0.25      | 반투명한 파란색          |
 | hsla(0, 0%, 0%, 0) | 0       | 0%      | 0%      | 0         | 완전히 투명한 검은색     |
 | hsla(360, 0%, 100%, 0.75) | 360     | 0%      | 100%    | 0.75      | 반투명한 흰색            |
-
 
 
 ## **10) letter-spacing, word-spacing**
