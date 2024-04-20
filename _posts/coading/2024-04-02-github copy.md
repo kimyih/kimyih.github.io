@@ -2,9 +2,9 @@
 layout: post
 title: 선택자에 대해 알아보자!
 date: 2024-04-05 19:52 +0900
-description: Html / CSS 
+description: HTML/CSS 
 image: ../assets/img/blog2.png
-category: coading
+category: HTML/CSS
 tags: selector
 published: true
 sitemap: true

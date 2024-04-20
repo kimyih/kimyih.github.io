@@ -2,9 +2,9 @@
 layout: post
 title: CSS 문자 관련 스타일을 알아보자!
 date: 2024-04-08 19:52 +0900
-description: Html / CSS 
+description: HTML/CSS 
 image: ../assets/img/text04.png
-category: coading
+category: HTML/CSS
 tags: selector
 published: true
 sitemap: true
