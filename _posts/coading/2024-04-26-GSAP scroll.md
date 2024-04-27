@@ -2,7 +2,7 @@
 layout: post
 title: GSAP) GSAP_ScrollAnime
 date: 2024-04-22 12:00 +0900
-description: 
+description: GSAP
 image: ../assets/img/scroll.jpg
 category: GSAP
 tags: GSAP Javassciprt Animetion Effect
@@ -20,7 +20,6 @@ GSAP은 GreenSock Animation Platform의 약자로, HTML, CSS 및 JavaScript를 �
 
 <br>
 
----
 
 ## 01. 기본 애니메이션 설정하기 
 ScrollTrigger와 함께 gsap.to 메서드를 사용하면, 다음과 같이 요소를 원하는 방향으로 쉽게 움직이게 할 수 있습니다.
@@ -40,6 +39,7 @@ gsap.to("#element", {
 
 <br>
 
+
 ## 02. 트리거 요소 설정 
 scrollTrigger 옵션을 사용하면 애니메이션이 시작되는 시점을 정확히 제어할 수 있습니다. 예를 들어, 특정 요소가 화면에 등장하는 순간 애니메이션을 시작하게 설정할 수 있습니다.
 
@@ -55,6 +55,7 @@ gsap.to("#element", {
 ```
 
 <br>
+
 
 ## 03. 스크롤 방향에 따른 애니메이션 제어 
 toggleActions 옵션을 활용하면, 사용자가 스크롤을 올릴 때와 내릴 때 각각 다른 애니메이션 효과를 적용할 수 있습니다.
