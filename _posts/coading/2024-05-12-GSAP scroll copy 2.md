@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 웹표준과 웹접근성
-date: 2024-05-12 11:52 +0900
-description: HTML/CSS 
+title: GSAP) GSAP_ScrollAnime
+date: 2024-04-22 12:00 +0900
+description: GSAP
 image: ../assets/img/web01.png
-category: HTML/CSS
-tags: selector
+category: GSAP
+tags: GSAP Javassciprt Animetion Effect
 published: true
 sitemap: true
 ---
