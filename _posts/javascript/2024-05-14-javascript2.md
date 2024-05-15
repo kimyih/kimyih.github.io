@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 자바스크립트 - 데이터 타입
-date: 2024-05-13 11:00 +0900
+date: 2024-05-14 11:00 +0900
 description: Javascript
 image: ../assets/img/Javascript.png
 category: Javascript 
