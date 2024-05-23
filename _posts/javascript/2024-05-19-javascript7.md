@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 자바스크립트 - ES6 문법 특징과 차이점 이해하기
-date: 2024-05-18 17:00 +0900
+date: 2024-05-19 17:00 +0900
 description: Javascript
 image: ../assets/img/Javascript.png
 category: Javascript 
