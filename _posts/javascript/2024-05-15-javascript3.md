@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 자바스크립트 - 데이터형 변환과 불변성 유지 방법
-date: 2024-05-14 11:00 +0900
+date: 2024-05-15 11:00 +0900
 description: Javascript
 image: ../assets/img/Javascript.png
 category: Javascript 
@@ -12,8 +12,6 @@ sitemap: true
 
 # 🔅 Javascript - 데이터형 변환과 불변성 유지 방법
 --- 
-
-# 자바스크립트에서의 데이터 형 변환과 불변성 유지하기
 
 자바스크립트는 매우 유연한 언어로, 데이터 형 변환과 불변성을 이해하고 사용하는 것이 중요합니다. 이번 글에서는 자바스크립트에서의 데이터 형 변환과 불변성을 유지하는 방법에 대해 쉽게 설명하겠습니다.   
    
