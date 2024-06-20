@@ -2,7 +2,7 @@
 layout: post
 title: 반응형 작업
 date: 2024-06-09 19:58 +0900
-description: HTML/CSS /
+description: HTML/CSS
 image: ../assets/img/htmlcss.png
 category: HTML/CSS
 tags: note

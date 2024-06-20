@@ -2,7 +2,7 @@
 layout: post
 title: 크로스 브라우징
 date: 2024-06-10 19:58 +0900
-description: HTML/CSS /
+description: HTML/CSS
 image: ../assets/img/htmlcss.png
 category: HTML/CSS
 tags: note
